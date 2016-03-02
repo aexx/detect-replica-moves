@@ -11,18 +11,17 @@ And, you
 
 Then you will be faced with many file operations, moved files will be first deletet and then again copied to the remote side. 
 
-This script is trying to detect the MOST(1) moved files and creates a file with several commands to adjust the remote directory and file tree.  
+This script is trying to detect the **MOST(1)** moved files and **creates a file with several commands** to adjust the remote directory and file tree.  
 
 `=> /dev/shm/REORGRemoteMoveScript.sh`
  
-It should run **before synchronization with your preferred sync tool** and does 
-
-**NOT** replace the sync tool.
+It should run **before synchronization with your preferred sync tool** and 
+does **NOT** replace the sync tool.
 
  **USE THIS SCRIPT AT YOUR OWN RISK!**
 
 
-(1) MOST files means for safety will several files will be ignored:
+**(1) MOST** files means for safety will several files will be ignored:
      File with same(same beginning) names on every side will be ignored and 
       skipped. Also if the is only on remote side. All this skipped files 
       will then be handled by the sync tool you start
