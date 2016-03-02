@@ -12,7 +12,8 @@ Script to reorganize a remote directory (e.g. webdav) before synchronization
 Then you will be faced with many file operations, moved files will be first deletet and then again copied to the remote side. 
 
 The script (reorg_Remote_Dir_detect_moves.sh) does not change your directories!
-It is trying to detect the **MOST(1)** moved files and then **creates a file(script) with several commands** to adjust 
+
+It is trying to detect the **_MOST(1)_** moved files and then **creates a file(script) with several commands** to adjust 
 
 the remote directory and file tree:  
 `=> /dev/shm/REORGRemoteMoveScript.sh`
@@ -23,7 +24,7 @@ does **NOT** replace the sync tool.
  **USE THIS SCRIPT AT YOUR OWN RISK!**
 
 
-**(1) MOST** files means for safety several files will be ignored:
+**_(1) MOST_** files means for safety several files will be ignored:
 
      Files with same(same beginning) names on every side will be ignored 
       and skipped. Also if the file is only on remote side. 
