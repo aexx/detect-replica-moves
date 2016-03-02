@@ -22,11 +22,11 @@ does **NOT** replace the sync tool.
  **USE THIS SCRIPT AT YOUR OWN RISK!**
 
 
-**_(1) MOST** files means for safety several files will be ignored:
-   Files with same(same beginning) names on every side will be ignored and skipped. 
-Also files which are only on remote side.
+_**(1) MOST** files means for safety several files will be ignored:
 
-All this skipped files will then be handled by the sync tool you start.
+Files with same(same beginning) names on every side will be ignored and skipped. Also files which are only on remote side.
+
+All this skipped files will then be handled by the sync tool you start._
 
 
 
