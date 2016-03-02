@@ -3,7 +3,7 @@
 Script to reorganize a remote directory (e.g. webdav) before synchronization 
  to avoid large file operation.
 
-**If you sync* over low bandwith ( e.g. over webdav, smb, nfs)
+**If you sync** over low bandwith ( e.g. over webdav, smb, nfs)
 
 **And**, you
    * have no database based sync tool like e.g. SuperFlexibleSynchronizer (which can detect file moves)
