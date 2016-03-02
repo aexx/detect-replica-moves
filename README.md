@@ -18,14 +18,12 @@ It is trying to detect the **_MOST(1)_** moved files and then **creates a new te
 This script should run **before synchronization with your preferred sync tool** and 
 does **NOT** replace the sync tool.
 
- ## USE THIS SCRIPT AT YOUR OWN RISK!
-
-
+#### USE THIS SCRIPT AT YOUR OWN RISK!  
 
 
 **_(1) MOST_** files means **for safety** several files will be ignored:
-   * files with same(same beginning) names on every side and also 
-   * files which are only on the remote side  
+   * files with same(same beginning) names on every side and also
+   * files which are only on the remote side
 will be ignored and skipped.
 
 All this skipped files will then be handled by the sync tool you start.
