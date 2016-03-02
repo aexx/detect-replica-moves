@@ -22,8 +22,10 @@ does **NOT** replace the sync tool.
 
 
 
-**_(1) MOST_** files means for safety several files will be ignored:  
-Files with same(same beginning) names on every side will be ignored and skipped. Also files which are only on remote side.
+**_(1) MOST_** files means **for safety** several files will be ignored:
+   * files with same(same beginning) names on every side and also 
+   * files which are only on the remote side  
+will be ignored and skipped.
 
 All this skipped files will then be handled by the sync tool you start.
 
