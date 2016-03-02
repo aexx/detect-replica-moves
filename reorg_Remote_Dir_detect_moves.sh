@@ -15,7 +15,7 @@
 #      (which can detect file moves)
 #    * have reorganized the file structure for some reason 
 #  Then you will be faced with many file operations, moved files will be first 
-#   deletet and then again copied to the remote side.
+#   deleted and then again copied to the remote side.
 #  This script is trying to detect the MOST(1) moved files and creates a file 
 #   with several commands to adjust the remote directory and file tree.
 #   => /dev/shm/REORGRemoteMoveScript.sh
