@@ -17,9 +17,11 @@ It is trying to detect the **_most(1)_** moved files and then **creates a new te
 This script should run **before synchronization with your preferred sync tool** and 
 does **NOT** replace the sync tool.
 
-#### USE THIS SCRIPT AT YOUR OWN RISK!  
+**USE THIS SCRIPT AT YOUR OWN RISK!**   
 
-
+ 
+ 
+ 
 **_(1) most_** files means **for safety** several files will be ignored:
    * files with same(same beginning) names on every side and also
    * files which are only on the remote side
