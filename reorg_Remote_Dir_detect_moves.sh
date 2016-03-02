@@ -24,10 +24,10 @@
 #
 #  USE THIS SCRIPT AT YOUR OWN RISK!
 #
-# (1) MOST files means for safety will several files will be ignored:
-#      File with same(same beginning) names on every side will be ignored and 
-#       skipped. Also if the is only on remote side. All this skipped files 
-#       will then be handled by the sync tool you start
+# (1) MOST files means for safety several files will be ignored:
+#      Files with same(same beginning) names on every side will be ignored 
+#       and skipped. Also if the file is only on the remote side. 
+#      All this skipped files will then be handled by the sync tool you start
 ################################################################################
 
 IFS=$'\n'
