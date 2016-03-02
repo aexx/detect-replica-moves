@@ -22,6 +22,7 @@ does **NOT** replace the sync tool.
  **USE THIS SCRIPT AT YOUR OWN RISK!**
 
 **_(1) MOST_** files means for safety several files will be ignored:
+
 Files with same(same beginning) names on every side will be ignored and skipped. 
 Also files which are only on remote side.
 
