@@ -18,7 +18,8 @@ It is trying to detect the **_MOST(1)_** moved files and then **creates a new te
 This script should run **before synchronization with your preferred sync tool** and 
 does **NOT** replace the sync tool.
 
- **USE THIS SCRIPT AT YOUR OWN RISK!**
+ ## USE THIS SCRIPT AT YOUR OWN RISK!
+
 
 
 
