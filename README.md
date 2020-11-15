@@ -17,9 +17,10 @@ _PLEASE check the script CAREFULLY if the move commands are OK. Use this script 
   
   
 **_(1) most_** files means, **for safety** several files will be ignored:
-   * files with same(same beginning) names which exist more than once on one side  
+Files ...
+   * ... with same(same beginning) names which exist more than once on one side  
      and also
-   * files which are only on the remote side
+   * ... which are only on the remote side
  
 will be ignored and skipped.   
 All this skipped files will then be handled by your preferred sync tool.
