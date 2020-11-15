@@ -16,7 +16,7 @@ does **NOT** replace the sync tool.
 _PLEASE check the script CAREFULLY if the move commands are OK. Use this script at your own risk!_    
   
   
-**_(1) most_** files means, **for safety** several files will be ignored:
+**_(1) most_** files means, **for safety** several files will be ignored:  
 Files ...
    * ... with same(same beginning) names which exist more than once on one side  
      and also
