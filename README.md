@@ -10,10 +10,10 @@ and
    * you have no database based sync tool like e.g. SuperFlexibleSynchronizer (which can detect file moves) or you can not use it because you reorganized before let it create the database...
 
 Then you will be faced with many file operations, **moved files will be first deleted and then again copied** to the remote side.   
-The script ` reorg_Remote_Dir_detect_moves.sh `is trying to detect the **_most(1)_** moved files and then **creates a new temporary shell-script with several commands** to adjust the remote directory and file tree:  
-` /dev/shm/REORGRemoteMoveScript.sh `   
-This script should run **before synchronization with your preferred sync tool** and 
-does **NOT** replace the sync tool.  
+The script `reorg_Remote_Dir_detect_moves.sh `is trying to detect the **_most(1)_** moved files and then **creates a new temporary shell-script:** `/dev/shm/REORGRemoteMoveScript.sh `.
+The created script includes the *move (mv)* commands to adjust the remote directory and file tree.
+
+This should run **before synchronization with your preferred sync tool** and is **not intended to replace** the sync tool.  
 _PLEASE check the script CAREFULLY if the move commands are OK. Use this script at your own risk!_    
   
   
