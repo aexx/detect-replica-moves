@@ -4,7 +4,7 @@
 
 ... tries to find files that have been moved and generates the necessary mv commands before the actual synchronization should take place.
 
-If you sync local / remote directory over low bandwith ( e.g. over webdav, smb, nfs)   
+In case you sync folders over low bandwidth (e.g. over webdav, smb, nfs)   
 and
    * you have reorganized the file structure on the local directory for some reason...
    * you have no database based sync tool like e.g. SuperFlexibleSynchronizer (which can detect file moves) or you can not use it because you reorganized before let it create the database...
