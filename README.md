@@ -1,4 +1,6 @@
-# reorg_Remote_Dir_detect_moves.sh
+## detect-replica-moves
+
+### script: reorg_Remote_Dir_detect_moves.sh
 
 Shell-Script detects moved files and reorganizes before synchronization local / remote directory (e.g. webdav) to avoid large file operation.
 
